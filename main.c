@@ -3,8 +3,8 @@
 int main()
 {
     float km, m, cm, inch, ft;
-    printf("Enter the distance in Kilometres\n")
-    scanf("%f", &km)
+    printf("Enter the distance in Kilometres\n");
+    scanf("%f", &km);
     m = km * 1000;
     cm = km * 100000;
     inch = cm / 2.54;
